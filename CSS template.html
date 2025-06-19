@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--title-->
+    <title>YUMMY FOOD Blog......</title>
+
+    <!--meta content-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CartFul">
+    <meta property="og:title" content="CartFul">
+    <meta property="og:image" content="https://logowik.com/content/uploads/images/chef-restaurant5078.logowik.com.webp">
+    <meta property="og:description" content="CartFul">
+    <meta property="og:url" content=" ">
+    
+    <!--favicon-->
+    <link rel="icon" href="https://logowik.com/content/uploads/images/chef-restaurant5078.logowik.com.webp" style="width: 1000px;height: 1000px;">
+
+    <!-- icon library to show a hamburger menu (bars) on small screen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./style sheet.css">
+    <link rel="stylesheet" href="./Javascript.js">
+</head>
+
+
+<body>
+    <!--Navbar (sit on top)-->
+    <div id="home" >
+        <div style="text-indent: 20px; word-spacing: 20px; align-content: center;" class="navbar">
+            <a href="#sidebar" style="word-spacing: 0;cursor:pointer; text-align: end;text-decoration: none; color: white !important ;" onclick="openNav()">&#9776;</a>
+                    <!-- <div class="sidebar">                                                  Sidebar (hidden by default) 
+                    <button class="dropbutton" onclick="myfunction()">&#9776;</button>
+                         <div id="mydropdown" class="dropdown-content">
+                         <a href="#">Location </a>
+                         <a href="#">Contact Details</a>
+                         </div>
+                    </div> -->
+            <a href="#home" style="text-decoration: none; color: white;"></i>HOME</a> 
+            <a href="#menu" style="text-decoration: none; color: white;"><i class="fa fa-cart-plus" style="padding: 8px;"></i>MENU</a>
+            <input type="search" name="search" id="search" placeholder="Search..." style="height: 30px; width: 600px;" class="search">
+            <button type="submit" style="height: 30px; width: 30px; " class="search"><i class="fa fa-search"></i></button>
+            <a href="#about" style="text-decoration: none; color: white;"></i>ABOUT</a>
+            <a href="#Contact" style="text-decoration: none; color: white;"></i>CONTACT</a>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/027/100/743/small_2x/the-frame-of-organic-food-with-spices-and-vegetables-is-displayed-on-a-stone-background-allowing-photo.jpg" alt="mainpage" style="width: 100%; height: 500px;">
+            <div class="centered" id="container">Food Blog....<i class="fa fa-camera" style="font-size:50px"></i></div>
+    </div>
+
+    <!-- Header -->
+    <!-- First Photo Grid-->
+    <div class="food1" id="menu">
+    <div class="foodstall">
+        <img src="https://reganbaroni.com/wp-content/uploads/2018/04/garden-greens-sandwiches-with-green-goddess-dressing.jpg" alt="Sandwich" style="width: 100%; height: 100%; border-radius: 20px;">
+        <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="foodstall">
+        <img src="https://thumbs.dreamstime.com/b/grilled-tomahawk-beef-steak-spices-grilled-tomahawk-beef-steak-spices-dark-rustic-background-179732211.jpg" alt="Steak" style="width: 100%; height: 100%;border-radius: 20px;">
+        <h3>Let Me Tell You About This Steak</h3>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="foodstall">
+        <img src="https://c8.alamy.com/comp/2G8FGTN/fresh-ripe-cherries-in-a-heart-shaped-bowl-with-water-drops-on-a-blue-background-with-jasmine-flowers-2G8FGTN.jpg" alt="Cherries" style="width: 100%; height: 90%;border-radius: 20px;">
+        <h3>Cherries, interrupted</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <p>What else?</p>
+    </div>
+    <div class="foodstall">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMjqevSVwsdZ90lIjCb2VuQGMSlQzzl_AxA&s" alt="Pasta and Wine" style="width: 100%; height: 90%;border-radius: 20px;">
+        <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    </div><br>
+
+    <!-- Second Photo Grid-->
+    <div class="food2">
+    <div class="foodstall">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqu7CiolBYkrS0TKm_yxI5Es62XCJLZ1MdCw&s" alt="Popsicle" style="width: 100%; height: 100%; border-radius: 20px;">
+        <h3>All I Need Is a Popsicle</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="foodstall">
+        <img src="https://i.pinimg.com/736x/67/d0/b9/67d0b9a7592a1e492e6fc05946136bc5.jpg" alt="Salmon" style="width: 100%; height: 100%;border-radius: 20px;">
+        <h3>Salmon For Your Skin</h3>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum</p>
+    </div>
+    <div class="foodstall">
+        <img src="https://media.istockphoto.com/id/1370854154/photo/french-macaroon-cake-levitating-on-a-dark-background.jpg?s=612x612&w=0&k=20&c=lgzuD9QODeyEJYFJ3P-llfd140FRCX2SOGWJV4uh-WA=" alt="Pastries" style="width: 100%; height: 90%;border-radius: 20px;">
+        <h3>The Perfect Pastries, A Real Classic</h3>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <p>What else?</p>
+    </div>
+    <div class="foodstall">
+        <img src="https://i.pinimg.com/736x/6f/74/09/6f74097bc98b53b6409cf762d5d92f3e.jpg" alt="Croissant" style="width: 100%; height: 90%;border-radius: 20px;">
+        <h3>Le French</h3>
+        <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    </div><br>
+    
+    <!-- Page Navigator -->
+    <nav>
+    <div class="page">
+        <div class="page1">
+            <a href="" class="" style="text-decoration: none">&laquo;</a>
+            <a href="" class="" style="text-decoration: none">1</a>
+            <a href="" class="" style="text-decoration: none">2</a>
+            <a href="" class="" style="text-decoration: none">3</a>
+            <a href="" class="" style="text-decoration: none">4</a>
+            <a href="" class="" style="text-decoration: none">&raquo;</a>
+        </div>
+    </div>
+    </nav>
+
+    <hr style="color: whitesmoke;">
+
+    <!-- About section -->
+     <center>
+    <div id="about">
+        <h3 style="align-content: center;">About Me, The Food Man</h3><br>
+        <img src="https://t4.ftcdn.net/jpg/05/73/24/93/360_F_573249345_vS2WX8Ilw6PclFNY7cLelp8A64zWXSbv.jpg" alt="chef" style="display:block;margin:auto" width="800" height="500">
+            <div class="w3-padding-32">
+                <h4><b>I am Who I Am!</b></h4>
+                <i>With Passion For Real, Good Food</i>
+                <p style="margin: 40px;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            </div>
+    </div>
+    </center>
+
+    <hr style="color: whitesmoke;">
+
+    <!-- Footer section -->
+    <footer>
+        <div class="foot">
+            <h4>FOOTER</h4>
+            <pre>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo 
+condimentum, porta lectus vitae, ultricies congue 
+gravida diam non fringilla.</pre>
+        </div>
+
+        <div class="foot">
+            <h4>BLOG POSTS</h4>
+            <ul class="foot" style="list-style-type: none;">
+                <li class="blog">
+                    <button style="background-color: white; border-style:none; cursor:pointer; display: inline-block;">
+                    <img src="https://www.shutterstock.com/image-photo/closeup-womans-hands-restaurant-taking-260nw-1761559967.jpg" class="" style="width:100px;"> 
+                    <span class="" style="font-size: large;">Lorem Sed mattis nunc</span></button>
+                </li>
+                <li class="blog">
+                    <button style="background-color: white; border-style:none; cursor:pointer; display: inline-block;">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-chef-adding-a-garnish-to-a-plate-of-food-image_2688985.jpg" class="" style="width:100px">
+                    <span class="">Ipsum Praes tinci sed</span><br></button>
+                </li> 
+            </ul>
+        </div>
+
+        <div class="foot">
+            <h4>POPULAR TAGS</h4>
+            <pre><span>Travel</span> | <span>New York</span> | <span>Dinner</span> | <span>Salmon</span> | <span>France</span> | <span>Drinks</span>
+<span>Ideas</span> | <span>Flavors</span> | <span>Cuisine</span> | <span>Fried</span> | <span>Dressing</span> | <span>Duck</span>
+<span>Chicken</span> | <span>Fish</span></pre>
+        </div>
+
+
+    </footer>
+</body>
+</html>
